@@ -19,7 +19,7 @@ module.exports = {
     ],
   },
   output: {
-    jsonpFunction: prebid.globalVarName+"Chunk"
+    jsonpFunction: prebid.globalVarName + 'Chunk'
   },
   module: {
     rules: [
